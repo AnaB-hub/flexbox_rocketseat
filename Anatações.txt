@@ -2,3 +2,11 @@ Extensão vcCode: Live server => faz o reload automático do arquivo
 ctrl shift p
 live server: Open with live server
 
+flex-direction: como o nome diz, é a direção que os itens serão apresentados
+O padrão é row
+(
+html, body, #app {heigth:100%, margin:0}
+Faz ocupar a tela toda e é possível ver o column reverse 
+começando do final da página
+)
+
