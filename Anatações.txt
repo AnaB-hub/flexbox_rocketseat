@@ -5,8 +5,16 @@ live server: Open with live server
 flex-direction: como o nome diz, é a direção que os itens serão apresentados
 O padrão é row
 (
-html, body, #app {heigth:100%, margin:0}
+html, body, #app {height:100%; margin:0}
 Faz ocupar a tela toda e é possível ver o column reverse 
 começando do final da página
 )
 
+Qdo usamos flex-direction: row, o  align-items alinha os itens verticalmente e
+o justify-content alinha os itens horizontalmente
+space-around, space-between, etc: só pode ser usado no justify-content
+
+Qdo usamos flex-direction: columno  align-items alinha os itens horizontalmente e
+o justify-content alinha os itens verticalmente
+
+align-items: sempre o contrário do flex-direction
