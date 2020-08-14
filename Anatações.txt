@@ -1,0 +1,4 @@
+Extensão vcCode: Live server => faz o reload automático do arquivo
+ctrl shift p
+live server: Open with live server
+
