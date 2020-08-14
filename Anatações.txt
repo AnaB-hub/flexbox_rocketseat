@@ -18,3 +18,8 @@ Qdo usamos flex-direction: columno  align-items alinha os itens horizontalmente 
 o justify-content alinha os itens verticalmente
 
 align-items: sempre o contrário do flex-direction
+
+flex-grow: diz que o elemento aceita ser aumentado pra caber no container dele, 
+ou seja, no elemento pai, no caso, o #app.
+flex-shrink: diz que o elemento aceita ser expremido
+flex: é a junção do flex-grow e flex-shrink. flex: 1 0;
