@@ -28,3 +28,8 @@ flex-wrap: wrap; quebra a linha, pra fazer caber os elementos. Ou seja, mantem
 o tamanho definido e quebra a linha, caso não seja suficiente.
 align-content: alinha os itens qdo estão em mais de uma linha quebrada. 
 
+
+box-sizing: border-box; Faz com que o padding não aumente a largura definida, ou seja, 
+não vai somar a largura mais o padding definido. O padding sera add internamente
+
+
